@@ -13,3 +13,13 @@
 
 // Do not modify code below this line.
 // --------------------------------
+
+function addByOne(i) {
+    return ++i;
+  }
+  
+  const incrementedFunction = addByOne(10);
+  console.log(`The new  value incremented by 1 is... `, incrementedFunction);
+  module.exports = { addByOne };
+  module.exports = { addByOne };
+  

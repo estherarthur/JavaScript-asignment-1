@@ -16,3 +16,12 @@
 
 // Do not modify code below this line.
 // --------------------------------
+function trueOrFalse(a, b) {
+    return a + b > 100 ? true : false;
+  }
+  
+  const response = trueOrFalse(50, 60);
+  
+  console.log("response..", response);
+  module.exports = { trueOrFalse };
+  

@@ -19,3 +19,22 @@
 
 // Do not modify code below this line.
 // --------------------------------
+
+function multiplication(i, j) {
+    return (i * j).toFixed(2).toString();
+  }
+  
+  const result = multiplication(2, 4);
+  console.log("result...", result);
+  
+  function division(i, j) {
+    return (i / j).toFixed(2).toString();
+  }
+  
+  const response = division(4, 2);
+  
+  console.log("response...", response);
+  module.exports = { multiplication, division };
+  module.exports = { multiplication, division };
+  module.exports = { multiplication,division };
+  

@@ -19,3 +19,28 @@
 
 // Do not modify code below this line.
 // --------------------------------
+function celciusToFahrenheit(celsius) {
+    return ((celsius * 9) / 5 + 32).toFixed(2).toString();
+  }
+  
+  const celsiusTemperature = 25;
+  const fahrenheitTemperature = celciusToFahrenheit(celsiusTemperature);
+  
+  console.log(
+    `${celsiusTemperature} degrees Celsius is equal to ${fahrenheitTemperature} degrees Fahrenheit.`
+  );
+  
+  function fahrenheitToCelcius(fahrenheit) {
+    return (((fahrenheit - 32) * 5) / 9).toFixed(2).toString();
+  }
+  
+  const fahrenheitTemperature_ = 77;
+  const celsiusTemperature_ = fahrenheitToCelcius(fahrenheitTemperature_);
+  
+  console.log(
+    `${fahrenheitTemperature_} degrees Fahrenheit is equal to ${celsiusTemperature_} degrees Celsius.`
+  );
+  module.exports = { celciusToFahrenheit, fahrenheitToCelcius };
+  module.exports = { celciusToFahrenheit, fahrenheitToCelcius };
+  module.exports = { celciusToFahrenheit,fahrenheitToCelcius };
+  
